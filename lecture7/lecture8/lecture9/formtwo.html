@@ -6,8 +6,7 @@
     <title>Job Application</title>
 </head>
 <body>
-    <h1>Job Application</h1>
-    <form>
+    <h2>Job Application</h2>
         <lable for="name">Name:-</lable>
         <input type="text" id="name" name="name">
         <br>
@@ -25,25 +24,50 @@
         <br>
         <br>
         <!-- use fieldset -->
-         <fieldset>
-        <legend>HTMLForm Dummy</legend>
-          <label for="datepicker">choose date:</label>
-        <input type="date" id="datepicker"><br>
-        <br>
-        <level for="gender">Choose your Gender:</level>
-        <select name="gender" id="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-        </select>
-        <br><br>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message............."></textarea>
-        <br>
-        <br>
-        <button>Submit</button>
+        
+<fieldset>
+    <legend>Topic of Interested</legend>
 
+    
+    <input type="checkbox" name="checkbox" id="checkbox1">
+    <label for="checkbox1">HTML</label>
+    
+    <input type="checkbox" name="checkbox" id="checkbox2">
+     <label for="checkbox2">CSS</label>
 
-      </fieldset>
+     
+    <input type="checkbox" name="checkbox" id="checkbox3">
+    <label for="checkbox3">JavaScript</label>
+
+   
+    <input type="checkbox" name="checkbox" id="checkbox4">
+      <label for="checkbox4">Python</label> 
+</fieldset>
+<br>
+   <label for="educationType">Highest Education:</label>
+    <select name="educationType" id="educationType">
+        <option value="a">Education</option>
+        <option value="a">A</option>
+        <option value="a">B</option>
+        <option value="a">C</option>
+        <option value="a">D</option>
+        <option value="a">E</option>
+    </select>
+   <br>
+   <fieldset>
+    <legend>Availability:</legend>
+    <label for=""radio1"> Full-time</label>
+    <input type="radio" name="availability" id="radio1">
+    <br>
+        <label for=""radio2"> Part-time</label>
+    <input type="radio" name="availability" id="radio2">
+    <br>
+   </fieldset>
+   <label for=""textarea1">Additional Comments:</label>
+   <br>
+    <textarea name="textarea1" id="textarea1"  cols="30" rows="10"></textarea>  
+    <br>
+    <input type="submit"value="Submit Application">
     </form>
     
 </body>
