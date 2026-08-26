@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job Application</title>
 </head>
 <body>
+    <h1>Job Application</h1>
+    <form>
+        <lable for="name">Name:-</lable>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+           <lable for="pnumber">phone Number:-</lable>
+        <input type="tel" id="pnumber" name="pnumber">
+        <br>
+        <br>
+           <lable for="fileUpload">Resume:-</lable>
+        <input type="file" id="fileUpload" name="fileUpload">
+        <br>
+        <br>
+        <label for="counter">Experience(in years)..</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br>
+        <br>
+        <!-- use fieldset -->
+         <fieldset>
+        <legend>HTMLForm Dummy</legend>
+          <label for="datepicker">choose date:</label>
+        <input type="date" id="datepicker"><br>
+        <br>
+        <level for="gender">Choose your Gender:</level>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message............."></textarea>
+        <br>
+        <br>
+        <button>Submit</button>
+
+
+      </fieldset>
+    </form>
     
 </body>
 </html>
