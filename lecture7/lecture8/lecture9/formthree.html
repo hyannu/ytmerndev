@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Three</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+               <label> Student Name:-</label>
+        <input type="text" name="studentname" placeholder="Enter your Name">
+        <br>
+        <br>
+        <label> Student Email:-</label>
+        <input type="email" name="studentemail" placeholder="Enter your Email"> 
+        <br>
+        <br>
+        <label> Student Phone:-</label>
+        <input type="tel" name="studentphone" placeholder="Enter your Phone Number">
+     <br>
+     <br>
+
+     <label for="dateOfBirth">Date of Birth:</label>
+     <input type="date" name="dateOfBirth" id="dateOfBirth">
+
+     <br>
+     <br>
+     <span>Gender:</span>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>  
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>  
+
+
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+        <br>
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="">Select country</option>
+            <option value="usa">USA</option>
+            <option value="usa">INDIA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>  
+            <optgroup label="Asia">
+                <option value="india">India</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>    
+            </optgroup>
+            <option value="other">Other</option>
+        </select>     
+</fieldset>
+<br>
+<br>
+
+<fieldset>
+    <legend>Additional Information</legend>
+    <lable for="Street">Street:</label>
+    <input type="text" name="Street" id="Street" placeholder="Enter your street">
+    <br>
+    <br>
+    <label for="state">State:</label>
+    <input type="text" name="state" id="state" placeholder="Enter your state">
+    <br>
+    <br>
+    <label for="city">City:</label>
+    <input type="text" name="city" id="city" placeholder="Enter your city">
+    <br> 
+    <br> 
+    <lable for="code">Postal code:</lable>
+    <input type="text" name="code" id="code" placeholder="Enter your postal code">
+    <br>
+    <br>  
+</fieldset>
+<fieldset>
+    <legend>other information</legend>
+
+<lable for="textarea">Comments:</lable>
+<br>
+<textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+<br>
+    <label foir="terms">I agree to the terms of service</label>
+    <input type="checkbox" name="terms" id="terms">
+
+</fieldset>
+
+    </form>
+</body>
+</html>
